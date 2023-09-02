@@ -57,6 +57,8 @@ footer {
 }
 
 .typeme {
+  width: 26ch;
+  padding-righ: 10px;
   animation: typing 2s steps(25), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
