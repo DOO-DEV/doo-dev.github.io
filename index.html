@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mohammad Hossein</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Monofett&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./main.css">
+</head>
+<style></style>
+<body>
+    <div class="typeme"><span class="text-secondary">doo-dev@hossein </span><span class="text-background">~ </span><span class="cursor">$ </span>me -h</div>
+       <section class="output">
+    <ul class="links">
+    <li>
+        <a class="github" href="https://github.com/doo-dev" alt="github" target="_blank">
+            Github
+        </a>
+    </li>
+    </ul>
+    <p>
+      I'm a <span id="age"></span> software developer who loves programming especially build things with Go.
+      
+  </p>
+
+<div><span class="text-secondary">bashbunni@bunnibrain </span><span class="text-background">~ </span><span class="cursor">$ </span>glow interests.md</div>
+<h3>Interests</h3>
+    <ul>
+        <li>backend development</li>
+        <li>linux</li>
+        <li>terminals and terminal tools</li>
+        <li>operating systems</li>
+    </ul>
+    </section>
+<footer>
+    This site was styled with the <a href="https://github.com/catppuccin" alt="catppuccin github" target="_blank">Catppuccin theme</a>
+</footer>
+</body>
+<script>
+      const el = document.getElementById('age')
+      const age = new Date().getYear() - new Date('8/14/2001').getYear()
+      el.textContent = age
+</script>
+</html>
