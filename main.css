@@ -46,23 +46,19 @@ footer {
   color: #a6d189;
 }
 
-.cursor {
+.user-sign {
   color: #f2d5cf;
+}
+.cursor {
+  animation: blink .5s step-end infinite alternate;
+  border-right: 10px solid #f2d5cf;
+  padding-right: 10px;
 }
 
 .output {
   width: 100%;
   max-width: 80ch;
-  animation: fade 5s;
-}
-
-.typeme {
-  width: 26ch;
-  padding-righ: 10px;
-  animation: typing 2s steps(25), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 10px solid #f2d5cf;
+  animation: fade 2s;
 }
 
 /* animation */
@@ -75,7 +71,8 @@ footer {
 
 @keyframes typing {
   0% { width: 0; }
-  100% { width: 30ch; }
+  50% { width: 50%; }
+  100% { width: 100%; }
 }
     
 @keyframes blink {

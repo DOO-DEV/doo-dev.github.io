@@ -12,8 +12,11 @@
 <style></style>
 
 <body>
-  <div class="typeme"><span class="text-secondary">doo-dev@hossein </span><span class="text-background">~ </span><span class="cursor">$ </span>me -h </div>
-  <section class="output">
+<div class="output">
+  <div>
+    <div><span class="text-secondary">doo-dev@hossein </span><span class="text-background">~ </span><span class="user-sign">$ </span>me -h </div>
+  </div>
+  <section>
     <ul class="links">
       <li>
         <a class="github" href="https://github.com/doo-dev" alt="github" target="_blank">
@@ -31,7 +34,7 @@
       mostly work in backend side and build things.
     </p>
 
-    <div><span class="text-secondary">doo-dev@hossein </span><span class="text-background">~ </span><span class="cursor">$ </span>me -interests</div>
+    <div><span class="text-secondary">doo-dev@hossein </span><span class="text-background">~ </span><span class="user-sign">$ </span>me -interests</div>
     <h3>Interests</h3>
     <ul>
       <li>backend development</li>
@@ -39,14 +42,17 @@
       <li>terminals and terminal tools</li>
       <li>operating systems</li>
     </ul>
+    <div><span class="text-secondary">doo-dev@hossein </span><span class="text-background">~ </span><span class="user-sign">$ </span><span class="cursor"></span></div>
   </section>
-  <footer>
-    This site was styled with the <a href="https://github.com/catppuccin" alt="catppuccin github" target="_blank">Catppuccin theme</a>
-  </footer>
+</div>
+<footer>
+  This site was styled with the <a href="https://github.com/catppuccin" alt="catppuccin github" target="_blank">Catppuccin theme</a>
+</footer>
 </body>
 <script>
   const el = document.getElementById('age')
   const age = new Date().getYear() - new Date('8/14/2001').getYear()
   el.textContent = age
 </script>
+
 </html>
